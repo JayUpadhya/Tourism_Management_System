@@ -1,0 +1,82 @@
+.dSection{
+    display: flex;
+    flex-direction: row; 
+    max-width: 980px;
+    width: auto;
+    margin: 25px 0 10px 0;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.dSection-img img{
+    width: 300px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.dSection-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.dSection-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+
+.dName{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.dRating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dStar{
+    margin-right: 5px;
+}
+
+.dRate{
+    font-size: 16px;    
+}
+
+.dSection-description {
+    width: 100%;
+    height: auto;
+}
+
+.dSection-description p{
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dSection-btn{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dSection-btn button{
+    padding: 10px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.dSection-btn button:hover{
+    background-color: black;
+    color: white;
+}

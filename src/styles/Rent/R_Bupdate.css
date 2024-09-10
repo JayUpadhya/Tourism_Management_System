@@ -1,0 +1,45 @@
+.R_updt2 {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin-top: 5px;
+  margin: 10px;
+  padding: 0;
+  background-color: #938e8e;
+  color: rgb(18, 18, 18);
+  margin-left: 500px;
+  margin-right: 450px;
+  height: 700px;
+  width: 650px;
+  margin-top: 25px;
+  justify-content: center;
+}
+.updatefrm label {
+  margin-bottom: 10px;
+}
+.R_updt h2 {
+  color: rgb(18, 18, 18);
+  margin-left: 550px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.updatefrm input,
+.updatefrm select {
+  width: 98%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.updatefrm button {
+  padding: 8px 16px;
+  background-color: #3f403f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update button:hover {
+  background-color: #92968f;
+}

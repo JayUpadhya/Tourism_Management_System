@@ -1,0 +1,86 @@
+.hotel-booking-home {
+  background-image: url("../../images/Booking/tour.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 45px;
+  font-family: cursive;
+}
+
+.hotelsSet {
+  width: 1330px;
+  height: 930px;
+  /* background-color: rgb(174, 235, 215); */
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.events {
+  width: 380px;
+  height: 390px;
+  background-color: aliceblue;
+  float: left;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.imageEvent {
+  width: 380px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.priceTag {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.tags {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bookButton {
+  width: 140px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: rgb(139, 232, 167);
+  margin-left: 118px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#event1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#event2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#event3 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+}

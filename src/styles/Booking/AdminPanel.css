@@ -1,0 +1,63 @@
+.admin-bg {
+  margin: 0;
+  height: 100vh;
+  background: url("../../images/Booking/tour.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin_panel {
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgba(127, 255, 212, 0.548);
+}
+
+.hotelpanel {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  margin-left: 120px;
+}
+
+.hotelpanel:hover {
+  background-color: lime;
+  border: 2px solid black;
+}
+
+.eventpanel {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.eventpanel:hover {
+  background-color: lime;
+  border: 2px solid black;
+}
+
+.panel1 {
+  margin-left: 125px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.panel2 {
+  margin-left: 275px;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.hotelroom {
+  width: 50px;
+  height: 50px;
+}

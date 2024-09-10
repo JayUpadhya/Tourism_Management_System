@@ -1,0 +1,28 @@
+.cus-form2 {
+  display: flex;
+  position: absolute;
+  top: 80px; /* Adjust as needed */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: #d9d9d9;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.pc-tittle {
+  position: absolute;
+  top: -53px; /* Adjust the top position as needed */
+  left: 40%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 44px; /* Adjust the font size as needed */
+}

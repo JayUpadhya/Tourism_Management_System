@@ -1,0 +1,102 @@
+.table-container1 {
+  position: absolute;
+  top: 200px; /* Adjust as needed */
+  left: 230px; /* Width of your sidebar */
+  width: calc(100% - 250px); /* Adjust according to your sidebar width */
+  margin-right: 100px; /* Add a margin to separate from the sidebar */
+  background-color: white;
+}
+
+.p-title {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  left: 58%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 45px; /* Adjust the font size as needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000; 
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+  border: 1px solid black; 
+  font-size: 14px;
+}
+
+th {
+  background-color: white;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+button.edit, button.delete, button.view {
+  margin-right: 5px;
+}
+
+button.edit {
+  background-color: #eed202;
+  color: black;
+  margin-right: 5px;
+}
+
+button.delete {
+  background-color: red;
+  color: whitesmoke;
+}
+
+button.view {
+  background-color: #78A55A;
+  color: white;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.search-barp {
+  position: absolute;
+  top: 140px; /* Adjust the top position to match the h4 tag */
+  left: 230px; 
+}
+
+.search-barp input[type="text"] {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-barp input[type="text"]:focus {
+  border-color: #78A55A; 
+}
+
+.search-barp input[type="text"]::placeholder {
+  color: #999; 
+}
+
+.search-barp button {
+  padding: 8px 20px;
+  background-color: #78A55A;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-barp button:hover {
+  background-color: #5C7B4C; 
+}

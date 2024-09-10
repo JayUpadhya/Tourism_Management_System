@@ -1,0 +1,16 @@
+.dContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dNavBar{
+    position: relative;
+}
+
+.dContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

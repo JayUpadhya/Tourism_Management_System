@@ -1,0 +1,99 @@
+.userregistration-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.error-message {
+  color: #fff; /* White text color */
+  background-color: #f44336; /* Red background color */
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+  font-size: 0.875rem;
+}
+
+
+.userregistration-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.userregistration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.userregistration-content {
+  margin-bottom: 15px;
+}
+
+.userregistration-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.userregistration-content input[type="text"],
+.userregistration-content input[type="email"],
+.userregistration-content input[type="password"],
+.userregistration-content select,
+.userregistration-content input[type="date"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.userregistration-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.userregistration-column {
+  flex-basis: calc(50% - 5px); /* Each column takes 50% of the row width with a little space between */
+}
+
+.userregistration-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.userregistration-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.userregistration-signin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.userregistration-signin p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.userregistration-signin a {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.userregistration-signin a:hover {
+  text-decoration: underline;
+}

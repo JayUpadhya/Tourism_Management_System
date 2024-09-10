@@ -1,0 +1,72 @@
+.rent-update22 {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  margin: 100;
+  padding: 0;
+  background-color: #777575;
+  color: rgb(248, 248, 248);
+  margin-left: 40px;
+  margin-right: 30px;
+  width: 75%;
+}
+.rent-container23 {
+  background-color: #696565;
+  border-radius: 10px;
+  padding: 2px;
+
+  width: 450px;
+  margin-left: 450px;
+  margin-right: 50px;
+  box-shadow: 0 4px 6px rgba(255, 254, 254, 0.1);
+}
+.rent-container23 input,
+.rent-container23 textarea {
+  background-color: white;
+  color: #070707; /* Set text color */
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 65%;
+}
+
+.rent_update22 h2 {
+  width: 55%;
+  margin-left: 450px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.rent-container23 form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 65px;
+  background-color: rgba(158, 71, 71, 0.5); /* White with 50% transparency */
+  padding: 50px;
+}
+
+.rent-container23 label {
+  margin-bottom: 10px;
+}
+
+.rent-container23 input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rent-container23 button {
+  padding: 10px 20px;
+  background-color: rgb(66, 66, 68);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.rent-container23 button:hover {
+  background-color: rgb(140, 140, 144);
+}

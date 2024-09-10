@@ -1,0 +1,74 @@
+.leftNav{
+     width: 20rem;
+     border: none;
+     height: 100vh;
+     position: fixed;
+     left: 0;
+     top: 0px;
+     background-color: rgb(224, 224, 224);
+ }
+ .logo{
+     margin: 1rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-weight: 700;
+     font-size: 30px;
+     color: rgb(5, 134, 44);
+ }
+
+ .employeeDetail{
+     margin: 1rem;
+     margin-top: 3rem;
+     height: auto;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     gap: 35px;
+     
+     
+     
+ }
+ /* .employeeDetail>img{
+     width: 12rem;
+     height: 12rem;
+     object-fit: cover;
+     border-radius: 50%;
+     
+ } */
+ .employeeDetail > h1{
+     font-weight: 600;
+ }
+ 
+ .job{
+    font-weight: 500;
+    
+ }
+ .date{
+     font-weight: 600;
+ }
+ .emp > h1{
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
+.empdis{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 1rem;
+    margin-top: 0.2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 500;
+    font-size: 1rem;
+   
+    
+}

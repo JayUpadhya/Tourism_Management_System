@@ -1,0 +1,47 @@
+.table-container4 {
+  position: absolute;
+  top: 200px; /* Adjust as needed */
+  left: 220px; /* Width of your sidebar */
+  width: calc(100% - 350px); /* Adjust according to your sidebar width */
+  margin-right: 100px; /* Add a margin to separate from the sidebar */
+  background-color: white;
+  }
+  
+  .r-title {
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 52%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 35px; /* Adjust the font size as needed */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 6px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .pdf-button2 {
+    position: absolute;
+    bottom: 558px;
+    background-color: #D9D9D9;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    left: 1200px;
+  }
+
+  
+  
+ 

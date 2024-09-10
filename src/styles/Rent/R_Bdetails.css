@@ -1,0 +1,58 @@
+.RentalDetails {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+
+  margin-top: 5px;
+}
+
+.RentalDetails th,
+.RentalDetails td {
+  border: 2px solid #7c7979;
+  padding: 3px;
+  text-align: left;
+  height: 10px;
+}
+.RentalDetails h2 {
+  justify-content: center;
+  margin-left: 500px;
+  margin-top: 35px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.RentalDetails th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.RentalDetails td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.RentalDetails tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.RentalDetails tr:hover {
+  background-color: #e6e6e6;
+}
+
+.bupdt {
+  margin-left: 50px;
+  background-color: #4b35c8;
+}
+.dlt {
+  margin-left: 50px;
+  background-color: #b64141;
+}
+.paybtn {
+  margin-left: 50px;
+  background-color: #5beb86;
+}

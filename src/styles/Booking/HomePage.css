@@ -1,0 +1,85 @@
+.title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: cursive;
+    color: white;
+}
+
+.nameSite{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 95px;
+    font-weight: bolder;
+}
+
+.homeSet{
+    width: 630px;
+    height: 280px;
+    background-color: rgba(174, 235, 215, 0.486);
+    margin-top: 80px;
+    margin-left: 450px;
+    border-radius: 10px;
+}
+
+.hotels{
+    width: 380px;
+    height: 420px;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.imageHotel{
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.priceTag{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.count{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bookButton{
+    width: 140px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(139, 232, 167);
+    margin-left: 118px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.adminButton{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 1370px;
+    margin-top: 140px;
+    font-weight: bold;
+    background-color: rgb(1, 253, 76);
+    border: none;
+}
+
+.quote{
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}

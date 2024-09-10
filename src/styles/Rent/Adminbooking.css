@@ -1,0 +1,33 @@
+.rent-searchb {
+  width: 20%;
+  color: black;
+  border-color: black;
+}
+.rent-pdfbutt {
+  margin-left: 5%;
+  background-color: #333632;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 5px;
+}
+.rent-bdth {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 275px;
+  margin-top: 10px;
+  width: 100%;
+}
+.adb {
+  font-weight: bold;
+  font-size: 24px;
+}
+.rent-bdt {
+  width: 1500px; /* Adjust the width as needed */
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-top: 35px;
+}

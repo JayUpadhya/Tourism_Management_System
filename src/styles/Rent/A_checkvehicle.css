@@ -1,0 +1,76 @@
+/* A_checkvehicle.css */
+
+/* Styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.rent-cvh {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 275px;
+  width: 100%;
+}
+.rent-vhl {
+  width: 1500px; /* Adjust the width as needed */
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-top: 45px;
+}
+
+.rent-vhl h2 {
+  margin-bottom: 20px;
+  margin-left: 355px;
+  width: 100%;
+  color: black;
+}
+
+/* Styles for the table */
+.rent-vhl table {
+  width: 80%;
+  height: 10%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.rent-vhl table th,
+.rent-vhl table td {
+  border: 2px solid #7c7979;
+  padding: 3px;
+  text-align: left;
+  height: 5px;
+}
+
+/* Styles for table header */
+.rent-vhl table th {
+  background-color: #f2f2f2;
+}
+
+/* Styles for table actions buttons */
+.rent-vhl button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rent-R_Bupdate {
+  background-color: #6e726e;
+  color: white;
+  border: none;
+}
+
+.rent-R_Bupdate:hover {
+  background-color: #9aa09a;
+}
+
+.rent-R_Bdelete {
+  background-color: #e42618;
+  color: white;
+  border: none;
+}
+
+.rent-R_Bdelete:hover {
+  background-color: #da190b;
+}

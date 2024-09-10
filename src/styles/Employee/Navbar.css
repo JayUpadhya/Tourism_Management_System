@@ -1,0 +1,44 @@
+/* Navbar styles */
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(236, 236, 236);
+     padding: 10px;  
+
+     
+}
+h2{
+     color: #9ca709;
+     size: 10px;
+     margin-left: 50px;
+}
+
+
+.nav-brand {
+     font-size: 20px;
+     font-weight: bold;
+     color: #444343;
+}
+
+.nav-links {
+     list-style: none;
+     display: flex;
+     
+}
+
+.nav-links li {
+     margin-right: 100px;
+}
+
+.nav-links a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+     font-size: 20px;
+     
+}
+
+.nav-links a:hover {
+     color: #10ac44;
+}

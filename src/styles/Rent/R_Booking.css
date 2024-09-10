@@ -1,0 +1,79 @@
+.rent-formu {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin-top: 5px;
+  margin: 100;
+  padding: 0;
+  background-color: #949191;
+  color: rgb(18, 18, 18);
+  border-color: #070707;
+  margin-left: 350px;
+  margin-right: 150px;
+
+  width: 75%;
+}
+
+.rent_heading2 {
+  text-align: center;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 75px;
+  margin-top: 55px;
+  text-size-adjust: 45px;
+  color: #070707;
+  font-weight: bold;
+  font-size: 24px;
+}
+.rent-formu {
+  display: flex;
+  padding: 5;
+  justify-content: center;
+  width: 55%;
+  margin-left: 380px;
+  margin-top: 50px;
+}
+
+.rent-form-column {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.rent-form-column label {
+  margin-bottom: 0.5rem;
+}
+
+.rent-form-column input,
+.rent-form-column select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.rent-form-column button {
+  width: 75%;
+  padding: 10px;
+  background-color: #424344;
+  color: #f2eded;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 500px;
+  margin-left: 5px;
+  /* Consider centering this button */
+}
+
+.rent_heading {
+  width: 100%;
+  color: #070707;
+
+  margin-right: 220px; /* Consider removing this margin for better alignment */
+}
+
+.rent-form-column button:hover {
+  background-color: #232425;
+}

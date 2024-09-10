@@ -1,0 +1,56 @@
+.topic6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  text-align: center;
+  margin-bottom: 700px;
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: -700px;
+}
+
+.flex-container6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between elements */
+  align-items: flex-start; /* Align items to the top */
+  margin-top: -700px;
+  margin-left: 260px; /* Adjust margin to create space for the sidebar */
+  padding-top: 20px; /* Adjust padding to create space at the top */
+}
+
+.flex-item6 {
+  margin: 2px;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: space-between;
+  border-radius: 20px;
+  max-width: 300px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.u-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: black;
+}
+
+.buy-button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}

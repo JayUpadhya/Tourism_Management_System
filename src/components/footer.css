@@ -1,0 +1,77 @@
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    height: 100%;
+    padding: 20px;
+}
+
+.logo{
+
+}
+
+.four-section{
+    display: flex;
+    flex-direction: raw;
+    flex: 1;
+}
+
+.info-section{
+    flex: 2;
+}
+
+.decription{
+    padding: 20px;
+    width: 350px;
+    text-align: justify;
+}
+
+.icons{
+    padding: 0 20px;
+    margin-left: 35px;
+}
+
+.icon-btn{
+    margin-left: 5px;
+    border-radius: 100%;
+    border: none;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.icon-btn img{
+    border-radius: 100%;    
+}
+
+.location{
+    padding: 10px 0 0 20px;
+}
+
+.contact{
+    padding: 5px 0 0 20px;
+}
+
+.about-section{
+    flex: 1;
+}
+
+
+
+.privacy-section{
+    flex: 1;
+}
+
+.service-section{
+    flex: 1;
+}
+
+ul{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+li{
+    line-height: 25px;
+}

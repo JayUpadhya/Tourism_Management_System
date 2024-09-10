@@ -1,0 +1,183 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover {
+  background-image: url("../../images/Destination/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  width: 100%;
+  top: -65px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ele-img {
+  margin-left: -85px;
+  margin-top: 20px;
+}
+
+.srilanka {
+  font-size: 100px;
+  color: aliceblue;
+  letter-spacing: 20px;
+  margin-top: -56px;
+}
+
+.title {
+  font-size: 30px;
+  font-style: normal;
+  color: aliceblue;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+  margin-bottom: 60px;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  width: 850px;
+  text-align: center;
+  margin: 70px 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.item-img {
+  border-radius: 20px;
+  border: 1px;
+  border-color: black;
+}
+
+.why-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 60px;
+}
+
+.item {
+  padding: 0 10px;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0px 15px 0px;
+}
+
+.item-description {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.explore {
+  background-image: url("../../images/Destination/Untitled.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 75px;
+  text-align: center;
+}
+
+.ex-srilanka {
+  font-size: 75px;
+  color: rgb(240, 248, 255);
+  letter-spacing: 10px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+  margin-bottom: 15px;
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.ex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.ex-left {
+  flex: 1;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ex-description {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  color: aliceblue;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+}
+
+.ex-btn {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+
+.ex-right {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex: 2;
+  margin-top: 20px;
+}
+
+.ex-img {
+  border-radius: 15px;
+}
+
+.ex-item-name {
+  color: aliceblue;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+  margin-top: 5px;
+}
+
+.pcks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 0 35px 0;
+  width: 80%;
+}
+
+.pcks-title {
+  margin: 45px 0 15px 0;
+}
+
+.footer {
+  width: 100%;
+}

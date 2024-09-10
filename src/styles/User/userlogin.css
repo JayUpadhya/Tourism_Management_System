@@ -1,0 +1,75 @@
+.userlogin-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.userlogin-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .userlogin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .userlogin-content {
+    margin-bottom: 15px;
+  }
+  
+  .userlogin-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .userlogin-content input[type="email"],
+  .userlogin-content input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .userlogin-container button[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .userlogin-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .userlogin-signin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  
+  .userlogin-signin p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .userlogin-signin a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .userlogin-signin a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,65 @@
+.event-bl {
+  background-image: url("../../images/Booking/tour.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+}
+
+.eventsSet {
+  width: 1330px;
+  height: 870px;
+  /* background-color: rgb(174, 235, 215); */
+  margin-top: 60px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.hotels {
+  width: 380px;
+  height: 420px;
+  background-color: aliceblue;
+  float: left;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.imageHotel {
+  width: 380px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.priceTag {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.count {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bookButton {
+  width: 140px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: rgb(139, 232, 167);
+  margin-left: 118px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}

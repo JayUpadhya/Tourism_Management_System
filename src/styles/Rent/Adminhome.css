@@ -1,0 +1,29 @@
+.rent-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.rent-button-container h1 {
+  margin-bottom: 20px;
+}
+
+.rent-button-container button {
+  margin-top: 20px;
+  height: 45px;
+  width: 180px;
+  padding: 10px 20px;
+  background-color: rgb(76, 76, 78);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.rent-button-container button + button {
+  margin-top: 2cm;
+}
+
+.rent-button-container button:hover {
+  background-color: rgb(124, 124, 128);
+}
